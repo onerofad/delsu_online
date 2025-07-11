@@ -20,9 +20,7 @@ const Header = () => {
                                 Delsu online
                             </h4>
                         </Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav"></Navbar.Collapse>
-                        <Nav className="">
+                         <Nav className="">
                             <Nav.Item>
                                 <Nav.Link style={{
                                     fontSize: 20,
