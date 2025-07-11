@@ -35,7 +35,7 @@ const Home = ({mobile}) => {
                          fontStyle: "normal",
                          color: 'ButtonFace',
                          display: 'block',
-                         fontSize: 14
+                         fontSize: mobile ? 16: 20
                     }}>
                         Join us now and enhance your
                         learning <br/>experience through delsu online
@@ -59,7 +59,8 @@ const Home = ({mobile}) => {
                             src={img}
                             style={{
                                 height: 400,
-                                //width: "100%"
+                                display: mobile ? "none": "block"
+
                             }}
                         />
                     </Col>
