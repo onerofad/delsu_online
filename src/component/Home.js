@@ -22,7 +22,7 @@ const Home = ({mobile}) => {
                         fontFamily: "Montserrat",
                         fontWeight: 700,
                         fontStyle: "normal",
-                        fontSize: mobile ? 21: 42,
+                        fontSize: mobile ? 32: 42,
                         display: 'block'
                     }} 
                         className="text-white py-4">
@@ -34,7 +34,8 @@ const Home = ({mobile}) => {
                          fontWeight: 400,
                          fontStyle: "normal",
                          color: 'ButtonFace',
-                         display: 'block'
+                         display: 'block',
+                         fontSize: 14
                     }}>
                         Join us now and enhance your
                         learning <br/>experience through delsu online
