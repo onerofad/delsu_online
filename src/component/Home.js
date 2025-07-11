@@ -7,7 +7,7 @@ import { Image } from "react-bootstrap"
 import img from "../component/back2.jpeg"
 import Header from "./Header"
 
-const Home = () => {
+const Home = ({mobile}) => {
     return(
         <>
         <Header />
@@ -22,7 +22,7 @@ const Home = () => {
                         fontFamily: "Montserrat",
                         fontWeight: 700,
                         fontStyle: "normal",
-                        fontSize: 42,
+                        fontSize: mobile ? 21: 42,
                         display: 'block'
                     }} 
                         className="text-white py-4">
