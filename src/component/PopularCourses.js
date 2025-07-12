@@ -7,7 +7,7 @@ import { BiSolidVideo } from "react-icons/bi"
 const PopularCourses = ({mobile}) => {
 
     return(
-        <div style={{padding: mobile? 10 : 80}} className="">
+        <div style={{padding: mobile? 0 : 80}} className="">
             <Container>
                 <Row className="pb-4">
                     <Col>
