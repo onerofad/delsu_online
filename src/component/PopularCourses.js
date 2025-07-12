@@ -16,7 +16,7 @@ const PopularCourses = () => {
                 </Row>
                 <Row>
                     <Col md={4}>
-                        <Card style={{ width: '18rem' }}>
+                        <Card>
                             <Card.Img variant="top" src={img2} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -32,7 +32,7 @@ const PopularCourses = () => {
                         </Card>
                     </Col>
                     <Col md={4}>
-                        <Card style={{ width: '18rem' }}>
+                        <Card>
                             <Card.Img variant="top" src={img2} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -48,7 +48,7 @@ const PopularCourses = () => {
                         </Card>
                     </Col>
                     <Col md={4}>
-                        <Card style={{ width: '18rem' }}>
+                        <Card>
                             <Card.Img variant="top" src={img2} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
