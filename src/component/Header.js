@@ -5,7 +5,7 @@ import { Container, Row, Col, Button, NavDropdown } from 'react-bootstrap'
 
 const Header = () => {
     return(
-       <Navbar expand="lg" className="bg-body-light">
+    <Navbar expand="lg" className="bg-body-light">
       <Container>
         <Navbar.Brand href="#">
             <h4 style={{color: '#0096ff', fontFamily: 'Mulish', fontSize: 35, fontWeight: 800, fontStyle: 'normal'}}>

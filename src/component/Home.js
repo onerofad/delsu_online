@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container'
 import { Image } from "react-bootstrap"
 import img from "../component/back2.jpeg"
 import Header from "./Header"
+import Collaborations from "./Collaborations"
 
 const Home = ({mobile}) => {
     return(
@@ -67,6 +68,7 @@ const Home = ({mobile}) => {
             </Row>
         </Container>
         </div>
+        <Collaborations />
 
         </>
     )
