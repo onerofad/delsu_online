@@ -4,10 +4,10 @@ import img2 from "../component/courses4.jpg"
 import { BsCameraVideo, BsViewList } from "react-icons/bs"
 import { BiSolidVideo } from "react-icons/bi"
 
-const PopularCourses = () => {
+const PopularCourses = ({mobile}) => {
 
     return(
-        <div style={{padding: 80}} className="">
+        <div style={{padding: mobile? 10 : 80}} className="">
             <Container>
                 <Row className="pb-4">
                     <Col>
