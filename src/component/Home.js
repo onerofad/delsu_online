@@ -7,6 +7,7 @@ import { Image } from "react-bootstrap"
 import img from "../component/back2.jpeg"
 import Header from "./Header"
 import Collaborations from "./Collaborations"
+import PopularCourses from "./PopularCourses"
 
 const Home = ({mobile}) => {
     return(
@@ -69,6 +70,7 @@ const Home = ({mobile}) => {
         </Container>
         </div>
         <Collaborations />
+        <PopularCourses />
 
         </>
     )
