@@ -14,7 +14,7 @@ const PopularCourses = ({mobile}) => {
                 </Row>
                 <Row>
                     <Col md={4}>
-                        <Card className="bg-body-tertiary">
+                        <Card border="primary" className="bg-body-tertiary">
                             <Card.Img variant="top" src={img2} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>

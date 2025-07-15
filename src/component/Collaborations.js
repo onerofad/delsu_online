@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap"
+import { Col, Container, Row, Card } from "react-bootstrap"
 import { LiaUniversitySolid } from "react-icons/lia"
 
 const Collaborations = ({mobile}) => {
@@ -16,21 +16,29 @@ const Collaborations = ({mobile}) => {
                     </Col>
                 </Row>
                 <Row className="pt-4">
-                    <Col className="col-md-3 sm-6"  style={{textAlign: "center"}}>
-                       <LiaUniversitySolid color="#0096ff"  size={80} />
-                       <h5>University of Ibadan</h5>
+                    <Col md={3} xs={6}  style={{textAlign: "center"}}>
+                        <Card border="primary" style={{justifyContent: "center", alignItems: "center"}}>
+                            <LiaUniversitySolid color="#0096ff"  size={80} />
+                            <h5>University of Ibadan</h5>
+                       </Card>
                     </Col>
-                    <Col className="col-md-3 sm-6"  style={{textAlign: "center"}}>
-                       <LiaUniversitySolid color="#0096ff"  size={80} />
-                       <h5>University of Nigeria</h5>
+                    <Col md={3} xs={6} style={{textAlign: "center"}}>
+                        <Card border="primary" style={{justifyContent: "center", alignItems: "center"}}>
+                            <LiaUniversitySolid color="#0096ff"  size={80} />
+                            <h5>University of Nigeria</h5>
+                        </Card>
                     </Col>
-                    <Col className="col-md-3 sm-6" style={{textAlign: "center"}}>
-                       <LiaUniversitySolid color="#0096ff"  size={80} />
-                       <h5>University of Lagos</h5>
+                    <Col md={3} xs={6} style={{textAlign: "center"}}>
+                       <Card border="primary" style={{justifyContent: "center", alignItems: "center"}}> 
+                            <LiaUniversitySolid color="#0096ff"  size={80} />
+                            <h5>University of Lagos</h5>
+                       </Card>
                     </Col>
-                    <Col className="col-md-3 sm-6"  style={{textAlign: "center"}}>
-                       <LiaUniversitySolid color="#0096ff"  size={80} />
-                       <h5 className="text-center">MIT</h5>
+                    <Col md={3} xs={6} style={{textAlign: "center"}}>
+                       <Card border="primary" style={{justifyContent: "center", alignItems: "center"}}> 
+                            <LiaUniversitySolid color="#0096ff"  size={80} />
+                            <h5>MIT</h5>
+                       </Card>
                     </Col>
                 </Row>
             </Container>
