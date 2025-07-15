@@ -16,19 +16,19 @@ const Collaborations = ({mobile}) => {
                     </Col>
                 </Row>
                 <Row className="pt-4">
-                    <Col style={{textAlign: "center"}}>
+                    <Col className="col-md-3 sm-6"  style={{textAlign: "center"}}>
                        <LiaUniversitySolid color="#0096ff"  size={80} />
                        <h5>University of Ibadan</h5>
                     </Col>
-                    <Col style={{textAlign: "center"}}>
+                    <Col className="col-md-3 sm-6"  style={{textAlign: "center"}}>
                        <LiaUniversitySolid color="#0096ff"  size={80} />
                        <h5>University of Nigeria</h5>
                     </Col>
-                    <Col style={{textAlign: "center"}}>
+                    <Col className="col-md-3 sm-6" style={{textAlign: "center"}}>
                        <LiaUniversitySolid color="#0096ff"  size={80} />
                        <h5>University of Lagos</h5>
                     </Col>
-                    <Col style={{textAlign: "center"}}>
+                    <Col className="col-md-3 sm-6"  style={{textAlign: "center"}}>
                        <LiaUniversitySolid color="#0096ff"  size={80} />
                        <h5 className="text-center">MIT</h5>
                     </Col>
