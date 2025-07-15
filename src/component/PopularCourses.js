@@ -1,13 +1,11 @@
 import { Button, Card, Container, Row, Col } from "react-bootstrap"
-import img1 from "../component/unilag.jpg"
 import img2 from "../component/courses4.jpg"
-import { BsCameraVideo, BsViewList } from "react-icons/bs"
 import { BiSolidVideo } from "react-icons/bi"
 
 const PopularCourses = ({mobile}) => {
 
     return(
-        <div style={{padding: mobile? 0 : 80}} className="">
+        <div style={{paddingTop: 50, paddingBottom: 50}} className="">
             <Container>
                 <Row className="pb-4">
                     <Col>
@@ -16,7 +14,7 @@ const PopularCourses = ({mobile}) => {
                 </Row>
                 <Row>
                     <Col md={4}>
-                        <Card>
+                        <Card className="bg-body-tertiary">
                             <Card.Img variant="top" src={img2} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -32,7 +30,7 @@ const PopularCourses = ({mobile}) => {
                         </Card>
                     </Col>
                     <Col md={4}>
-                        <Card>
+                        <Card className="bg-body-tertiary">
                             <Card.Img variant="top" src={img2} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -48,7 +46,7 @@ const PopularCourses = ({mobile}) => {
                         </Card>
                     </Col>
                     <Col md={4}>
-                        <Card>
+                        <Card className="bg-body-tertiary">
                             <Card.Img variant="top" src={img2} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>

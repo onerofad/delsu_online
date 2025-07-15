@@ -1,9 +1,9 @@
-import { Col, Container, Image, ListGroup, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
 import { LiaUniversitySolid } from "react-icons/lia"
 
 const Collaborations = ({mobile}) => {
     return(
-        <div style={{padding: mobile? 0 : 50}} className="bg-body-tertiary">
+        <div style={{paddingTop: 50, paddingBottom: 50}} className="bg-body-tertiary">
             <Container>
                 <Row>
                     <Col>
