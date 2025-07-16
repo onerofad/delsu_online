@@ -9,16 +9,16 @@ const PopularCourses = ({mobile}) => {
             <Container>
                 <Row className="pb-4">
                     <Col>
-                        <h4 style={{fontSize: 35, fontStyle: "normal", fontWeight: 700, fontFamily: "Mullin", color: "#000"}} className="text-center">Our popular courses</h4>
+                        <h4 style={{fontSize: 35, fontStyle: "normal", fontWeight: 700, fontFamily: "Mullin", color: "#000"}} className="text-center">General courses</h4>
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={4}>
-                        <Card border="primary" className="bg-body-tertiary">
+                    <Col md={3} xs={6}>
+                        <Card className="bg-body-tertiary">
                             <Card.Img variant="top" src={img2} />
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
+                                <Card.Title style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>GST 101</Card.Title>
+                                <Card.Text style={{fontSize: 16, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif"}}>
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
                                 </Card.Text>
@@ -28,13 +28,14 @@ const PopularCourses = ({mobile}) => {
                                 </Button>
                             </Card.Body>
                         </Card>
+                        <br/>
                     </Col>
-                    <Col md={4}>
+                    <Col md={3} xs={6}>
                         <Card className="bg-body-tertiary">
                             <Card.Img variant="top" src={img2} />
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
+                                <Card.Title style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>GST 102</Card.Title>
+                                <Card.Text style={{fontSize: 16, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif"}}>
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
                                 </Card.Text>
@@ -44,13 +45,14 @@ const PopularCourses = ({mobile}) => {
                                 </Button>
                             </Card.Body>
                         </Card>
+                        <br/>
                     </Col>
-                    <Col md={4}>
+                    <Col md={3} xs={6}>
                         <Card className="bg-body-tertiary">
                             <Card.Img variant="top" src={img2} />
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
+                                <Card.Title style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>GST 103</Card.Title>
+                                <Card.Text style={{fontSize: 16, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif"}}>
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
                                 </Card.Text>
@@ -60,6 +62,24 @@ const PopularCourses = ({mobile}) => {
                                 </Button>
                             </Card.Body>
                         </Card>
+                        <br/>
+                    </Col>
+                    <Col md={3} xs={6}>
+                        <Card className="bg-body-tertiary">
+                            <Card.Img variant="top" src={img2} />
+                            <Card.Body>
+                                <Card.Title style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>GST 104</Card.Title>
+                                <Card.Text style={{fontSize: 16, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif"}}>
+                                    Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.
+                                </Card.Text>
+                                <Button style={{backgroundColor: '#0096ff', fontWeight: 400, fontStyle: 'normal', fontFamily: "Inria Serif", fontSize: 16}}>
+                                    <BiSolidVideo color="#fff" />&nbsp;
+                                    View watch
+                                </Button>
+                            </Card.Body>
+                        </Card>
+                        <br/>
                     </Col>
                 </Row>
             </Container>

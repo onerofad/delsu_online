@@ -7,11 +7,9 @@ const Collaborations = ({mobile}) => {
             <Container>
                 <Row>
                     <Col>
-                        <h4 style={{fontSize: 35, fontStyle: "normal", fontWeight: 700, fontFamily: "Mullin", color: "#000"}} className="text-center">We partner with other univerities</h4>
+                        <h4 style={{fontSize: 35, fontStyle: "normal", fontWeight: 700, fontFamily: "Mullin", color: "#000"}} className="text-center">Our partner univerities</h4>
                         <h4 className="text-center" style={{display: "block", fontSize: 18, fontStyle: "normal", fontWeight: 400, fontFamily: "Inria Serif", color: "#000"}}>
-                            We are collaborating with other universities home and
-                            abroad to bring the best courses to our students at
-                            Delta State University
+                            We collaborate with top universities to bring the best courses to our students
                         </h4>
                     </Col>
                 </Row>
@@ -19,26 +17,29 @@ const Collaborations = ({mobile}) => {
                     <Col md={3} xs={6}  style={{textAlign: "center"}}>
                         <Card border="primary" style={{justifyContent: "center", alignItems: "center"}}>
                             <LiaUniversitySolid color="#0096ff"  size={80} />
-                            <h5>University of Ibadan</h5>
+                            <h5 style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>University of Ibadan</h5>
                        </Card>
+                       <br/>
                     </Col>
                     <Col md={3} xs={6} style={{textAlign: "center"}}>
                         <Card border="primary" style={{justifyContent: "center", alignItems: "center"}}>
                             <LiaUniversitySolid color="#0096ff"  size={80} />
-                            <h5>University of Nigeria</h5>
+                            <h5 style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>University of Nigeria</h5>
                         </Card>
+                        <br/>
                     </Col>
                     <Col md={3} xs={6} style={{textAlign: "center"}}>
                        <Card border="primary" style={{justifyContent: "center", alignItems: "center"}}> 
                             <LiaUniversitySolid color="#0096ff"  size={80} />
-                            <h5>University of Lagos</h5>
+                            <h5 style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>University of Lagos</h5>
                        </Card>
+                       <br/>
                     </Col>
                     <Col md={3} xs={6} style={{textAlign: "center"}}>
                        <Card border="primary" style={{justifyContent: "center", alignItems: "center"}}> 
                             <LiaUniversitySolid color="#0096ff"  size={80} />
-                            <h5>MIT</h5>
-                       </Card>
+                            <h5 style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>MIT</h5>
+                       </Card><br/>
                     </Col>
                 </Row>
             </Container>

@@ -8,6 +8,10 @@ import img from "../component/back2.jpeg"
 import Header from "./Header"
 import Collaborations from "./Collaborations"
 import PopularCourses from "./PopularCourses"
+import Community from "./Community"
+import Testimonies from "./Testimonies"
+import Footer from "./Footer"
+
 
 const Home = ({mobile}) => {
     return(
@@ -71,6 +75,9 @@ const Home = ({mobile}) => {
         </div>
         <Collaborations />
         <PopularCourses />
+        <Testimonies />
+        <Community />
+        <Footer />
 
         </>
     )
