@@ -3,6 +3,8 @@ import Row from "react-bootstrap/Row"
 import Button from "react-bootstrap/Button"
 
 import Container from "react-bootstrap/Container"
+import { TbBuildingCommunity } from "react-icons/tb"
+import { PiStudentFill } from "react-icons/pi"
 
 const Community = () => {
     return(
@@ -13,9 +15,12 @@ const Community = () => {
                         <h4 className="mt-4" style={{fontSize: 30, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>
                             Join our vibrant student community
                         </h4>
-                        <Button size="lg" className="mt-4" style={{backgroundColor: "#0086ff", fontSize: 20, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif"}}>
+                        <Button size="lg" className="mt-4" style={{backgroundColor: "#2980b9", fontSize: 20, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif"}}>
                             Join Now
                         </Button>
+                    </Col>
+                    <Col md={4} style={{textAlign: "center"}}>
+                        <PiStudentFill color="#2980b9"  size={120} />
                     </Col>
                 </Row>
             </Container>

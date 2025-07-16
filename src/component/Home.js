@@ -18,7 +18,7 @@ const Home = ({mobile}) => {
         <>
         <Header />
         <div className="py-0" style={{
-                backgroundColor: '#0096ff', 
+                backgroundColor: '#2980b9', 
                 height: 400
             }}>
         <Container>

@@ -68,14 +68,14 @@ const PopularCourses = ({mobile}) => {
     let courses
     courses = all_courses.map(m => (
         <div style={{margin: 10}}>
-            <Card className="bg-body-tertiary">
+            <Card className="">
                 <Card.Img variant="top" src={m.image} />
                     <Card.Body>
                         <Card.Title style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>{m.title}</Card.Title>
                         <Card.Text style={{fontSize: 16, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif"}}>
                             {m.text}
                         </Card.Text>
-                        <Button style={{backgroundColor: '#0096ff', fontWeight: 400, fontStyle: 'normal', fontFamily: "Inria Serif", fontSize: 16}}>
+                        <Button style={{backgroundColor: '#2980b9', fontWeight: 400, fontStyle: 'normal', fontFamily: "Inria Serif", fontSize: 16}}>
                             <BiSolidVideo color="#fff" />&nbsp;
                              View watch
                         </Button>

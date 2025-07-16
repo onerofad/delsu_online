@@ -1,14 +1,16 @@
 import Form from 'react-bootstrap/Form'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import { Container, Button, NavDropdown } from 'react-bootstrap'
+import { Container, Button, NavDropdown, Image } from 'react-bootstrap'
+import img from '../component/logos.jpg'
 
 const Header = () => {
     return(
     <Navbar expand="lg" className="bg-body-light">
       <Container>
+        <Image width={80} src={img}  />
         <Navbar.Brand href="#">
-            <h4 style={{color: '#0096ff', fontFamily: 'Mulish', fontSize: 35, fontWeight: 800, fontStyle: 'normal'}}>
+            <h4 style={{color: '#2980b9', fontFamily: 'Mulish', fontSize: 25, fontWeight: 800, fontStyle: 'normal'}}>
                 Delsu Online
             </h4>
         </Navbar.Brand>
@@ -40,7 +42,7 @@ const Header = () => {
               aria-label="Search"
               style={{fontSize: 18, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif"}}
             />
-            <Button style={{fontSize: 18, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: '#fff', backgroundColor: '#0096ff'}} variant="outline-primary">Search</Button>
+            <Button style={{fontSize: 18, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: '#fff', backgroundColor: '#2980b9'}} variant="outline-primary">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
