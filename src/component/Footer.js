@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/Container"
 import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
-import ListGroup from "react-bootstrap/ListGroup"
 
 const Footer = () => {
     return(
@@ -11,21 +10,21 @@ const Footer = () => {
                     <Col xs={12} md={3}>
                         <h4 style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>Quick links</h4>
                         <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Mission & Vision</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Mission & Vision</a>
                         </p>
                          <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">About us</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">About us</a>
 
                         </p>
                          <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Out partners</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Out partners</a>
 
                         </p>
                          <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">General Courses</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">General Courses</a>
                         </p>
                          <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Student Testimonials</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Student Testimonials</a>
 
                         </p>
                         <br/>
@@ -33,21 +32,21 @@ const Footer = () => {
                     <Col xs={12} md={3}>
                         <h4 style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>Vocations</h4>
                         <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Fashion courses</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Fashion courses</a>
                         </p>
                          <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Software courses</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Software courses</a>
 
                         </p>
                          <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Fish farming </a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Fish farming </a>
 
                         </p>
                          <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Soap making courses</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Soap making courses</a>
                         </p>
                          <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Bead making courses</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Bead making courses</a>
 
                         </p>
                         <br/>
@@ -55,14 +54,14 @@ const Footer = () => {
                     <Col xs={12} md={3}>
                         <h4 style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>Communities</h4>
                         <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Discussion groups</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Discussion groups</a>
                         </p>
                          <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Play games</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Play games</a>
 
                         </p>
                          <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Other activities</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Other activities</a>
 
                         </p>
                         <br/>
@@ -70,14 +69,14 @@ const Footer = () => {
                     <Col xs={12} md={3}>
                         <h4 style={{fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "mullin"}}>More</h4>
                         <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Help</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Help</a>
                         </p>
                          <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Feedback</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Feedback</a>
 
                         </p>
                          <p>
-                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="#">Support</a>
+                            <a className="text-decoration-none" style={{fontSize: 14, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: "#000"}} href="/">Support</a>
 
                         </p>
                         <br/>

@@ -21,9 +21,9 @@ const Header = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1" style={{fontSize: 18, fontFamily: 'Inria Serif', fontWeight: 400, fontStyle: "normal"}}>Our Courses</Nav.Link>
-            <Nav.Link href="#action2" style={{fontSize: 18, fontFamily: 'Inria Serif', fontWeight: 400, fontStyle: "normal"}}>Join Us</Nav.Link>
-            <NavDropdown style={{fontSize: 18, fontFamily: 'Inria Serif', fontWeight: 400, fontStyle: "normal"}} title="Latest Courses" id="navbarScrollingDropdown">
+            <Nav.Link href="#action1" style={{fontSize: 18, fontFamily: 'Inria Serif', fontWeight: 700, fontStyle: "normal"}}>Our Courses</Nav.Link>
+            <Nav.Link href="#action2" style={{fontSize: 18, fontFamily: 'Inria Serif', fontWeight: 700, fontStyle: "normal"}}>Join Us</Nav.Link>
+            <NavDropdown style={{fontSize: 18, fontFamily: 'Inria Serif', fontWeight: 700, fontStyle: "normal"}} title="Latest Courses" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Enterpreneurship</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Vocations
@@ -40,9 +40,9 @@ const Header = () => {
               placeholder="Search"
               className="me-2"
               aria-label="Search"
-              style={{fontSize: 18, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif"}}
+              style={{fontSize: 18, fontWeight: 700, fontStyle: "normal", fontFamily: "Inria Serif"}}
             />
-            <Button style={{fontSize: 18, fontWeight: 400, fontStyle: "normal", fontFamily: "Inria Serif", color: '#fff', backgroundColor: '#2980b9'}} variant="outline-primary">Search</Button>
+            <Button style={{fontSize: 18, fontWeight: 700, fontStyle: "normal", fontFamily: "Inria Serif", color: '#fff', backgroundColor: '#2980b9'}} variant="outline-primary">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

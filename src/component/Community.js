@@ -3,7 +3,6 @@ import Row from "react-bootstrap/Row"
 import Button from "react-bootstrap/Button"
 
 import Container from "react-bootstrap/Container"
-import { TbBuildingCommunity } from "react-icons/tb"
 import { PiStudentFill } from "react-icons/pi"
 
 const Community = () => {
