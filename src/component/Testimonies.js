@@ -8,7 +8,7 @@ import img from "../component/student.jpg"
 const Testimonies = () => {
 
     return(
-        <div className="bg-body-tertiary" style={{paddingTop: 50, paddingBottom: 50}}>
+        <div className="" style={{paddingTop: 50, paddingBottom: 50}}>
             <Container>
                 <Row>
                     <Col>

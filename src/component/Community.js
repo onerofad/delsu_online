@@ -7,7 +7,7 @@ import { PiStudentFill } from "react-icons/pi"
 
 const Community = () => {
     return(
-        <div style={{paddingTop: 50, paddingBottom: 50}}>
+        <div className="bg-body-tertiary" style={{paddingTop: 50, paddingBottom: 50}}>
             <Container>
                 <Row>
                     <Col md={8}>

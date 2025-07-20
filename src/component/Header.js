@@ -8,9 +8,9 @@ const Header = () => {
     return(
     <Navbar expand="lg" className="bg-body-light">
       <Container>
-        <Image width={80} src={img}  />
         <Navbar.Brand href="#">
-            <h4 style={{color: '#2980b9', fontFamily: 'Mulish', fontSize: 25, fontWeight: 800, fontStyle: 'normal'}}>
+            <Image width={80} src={img} style={{display: 'inline'}} />
+            <h4 style={{display: 'inline', color: '#2980b9', fontFamily: 'Mulish', fontSize: 25, fontWeight: 800, fontStyle: 'normal'}}>
                 Delsu Online
             </h4>
         </Navbar.Brand>

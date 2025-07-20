@@ -3,7 +3,7 @@ import { LiaUniversitySolid } from "react-icons/lia"
 
 const Collaborations = ({mobile}) => {
     return(
-        <div style={{paddingTop: 50, paddingBottom: 50}} className="bg-body-tertiary">
+        <div style={{paddingTop: 50, paddingBottom: 50}} className="">
             <Container>
                 <Row>
                     <Col>
@@ -17,28 +17,28 @@ const Collaborations = ({mobile}) => {
                     <Col md={3} xs={6}  style={{textAlign: "center"}}>
                         <Card border="primary" style={{backgroundColor: '#2980b9', justifyContent: "center", alignItems: "center"}}>
                             <LiaUniversitySolid color="#fff"  size={80} />
-                            <h5 style={{color: '#fff', fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "Inria Serif"}}>University of Ibadan</h5>
+                            <h5 style={{color: '#fff', fontSize: 18, fontWeight: 700, fontStyle: "normal", fontFamily: "Inria Serif"}}>University of Ibadan</h5>
                        </Card>
                        <br/>
                     </Col>
                     <Col md={3} xs={6} style={{textAlign: "center"}}>
                         <Card border="primary" style={{backgroundColor: '#2980b9', justifyContent: "center", alignItems: "center"}}>
                             <LiaUniversitySolid color="#fff"  size={80} />
-                            <h5 style={{color: '#fff', fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "Inria Serif"}}>University of Nigeria</h5>
+                            <h5 style={{color: '#fff', fontSize: 18, fontWeight: 700, fontStyle: "normal", fontFamily: "Inria Serif"}}>University of Nigeria</h5>
                         </Card>
                         <br/>
                     </Col>
                     <Col md={3} xs={6} style={{textAlign: "center"}}>
                        <Card border="primary" style={{backgroundColor: '#2980b9', justifyContent: "center", alignItems: "center"}}> 
                             <LiaUniversitySolid color="#fff"  size={80} />
-                            <h5 style={{color: '#fff', fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "Inria Serif"}}>University of Lagos</h5>
+                            <h5 style={{color: '#fff', fontSize: 18, fontWeight: 700, fontStyle: "normal", fontFamily: "Inria Serif"}}>University of Lagos</h5>
                        </Card>
                        <br/>
                     </Col>
                     <Col md={3} xs={6} style={{textAlign: "center"}}>
                        <Card border="primary" style={{backgroundColor: '#2980b9', justifyContent: "center", alignItems: "center"}}> 
                             <LiaUniversitySolid color="#fff"  size={80} />
-                            <h5 style={{color: '#fff', fontSize: 20, fontWeight: 700, fontStyle: "normal", fontFamily: "Inria Serif"}}>University of Ilorin</h5>
+                            <h5 style={{color: '#fff', fontSize: 18, fontWeight: 700, fontStyle: "normal", fontFamily: "Inria Serif"}}>University of Ilorin</h5>
                        </Card><br/>
                     </Col>
                 </Row>
